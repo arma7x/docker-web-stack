@@ -1,6 +1,6 @@
 ## ****Docker Web Stack****
 
-> A simple docker container to run local development server for php or nodejs projects
+> A simple docker container to run local development server for PHP, Nodejs, Python or Go projects
 
 Installation:
 1. Install Docker on your local machine
