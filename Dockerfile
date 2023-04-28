@@ -6,7 +6,6 @@ RUN mkdir -p /home/web
 
 RUN apk update
 RUN apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/testing php82-pecl-imagick php82-brotli
-RUN apk add --no-cache -X http://dl-cdn.alpinelinux.org/alpine/edge/testing php82-pecl-imagick php82-brotli
 
 RUN apk add acl nodejs-current npm yarn python3 go
 
