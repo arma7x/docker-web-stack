@@ -1,0 +1,19 @@
+{
+    "name": "arma7x/reactphp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Arma7x\\Reactphp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmad Malik",
+            "email": "arma7x@live.com"
+        }
+    ],
+    "require": {
+        "react/http": "^1.9",
+        "react/socket": "^1.12"
+    }
+}
