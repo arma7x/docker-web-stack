@@ -40,4 +40,3 @@ Notes:
 - Refer [test_services.php](https://github.com/arma7x/docker-web-stack/blob/master/web/tools/test_services.php) for connection configuration to other services
 - Folder `data` contains persistent data for Mariadb, MongoDB,  Postgres  and Redis
 - `.env` contains default environment configuration
--  Execute `docker exec -it docker-web-stack /bin/sh -c "setfacl -PRdm u::rwx,g::rwx,o::rwx /home/web"` to grant user's machine write/read permission
